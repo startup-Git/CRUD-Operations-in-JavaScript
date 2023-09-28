@@ -1,0 +1,37 @@
+/* 
+    Develope by Abdur Rahman Roky
+    mdroky2016s.s.c@gmail.com
+    https://github.com/startup-git
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.posts-content{
+    border-bottom: 1px solid darkolivegreen;
+    padding-top: 10px;
+}
+i#Edit_icon{
+    font-size: 22px;
+    color: green;
+    margin-right: 10px;
+    transition: 0.4s ease-in-out;
+}
+i#Edit_icon:hover{
+    font-size: 23px;
+    color: chartreuse;
+    cursor: pointer;
+}
+i#Delete_icon{
+    font-size: 22px;
+    color: red;
+    transition: 0.4s ease-in-out;
+
+}
+i#Delete_icon:hover{
+    font-size: 23px;
+    color: crimson;
+    cursor: pointer;
+}
